@@ -1,0 +1,44 @@
+name: Update BOC FX rates
+
+on:
+  schedule:
+    # 每 30 分钟抓取一次（GitHub Actions 的 cron 使用 UTC，纯间隔表达式不受时区影响）
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "boc_rate.py"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-rates
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 抓取中行牌价
+        run: python boc_rate.py
+
+      - name: 有变化时提交
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- rate.json; then
+            echo "牌价无变化，跳过提交"
+          else
+            git add rate.json
+            git commit -m "chore: 更新中行外汇牌价 [skip ci]"
+            git push
+          fi
