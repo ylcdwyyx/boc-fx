@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f5f5f4">
+<title>中行美元牌价</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 28px; padding: 32px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+    background: #f5f5f4; color: #2c2c2a;
+  }
+  h1 { font-size: 15px; font-weight: 500; color: #5f5e5a; margin: 0; letter-spacing: .08em; }
+  .card {
+    width: 100%; max-width: 380px; background: #fff; border: 1px solid #e7e5e4;
+    border-radius: 16px; padding: 28px 24px;
+  }
+  .label { font-size: 13px; color: #888780; margin-bottom: 6px; }
+  .big { font-size: 52px; font-weight: 500; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .big span { font-size: 20px; color: #888780; margin-left: 6px; }
+  .sub { display: flex; align-items: baseline; gap: 10px; margin-top: 20px;
+         padding-top: 18px; border-top: 1px solid #f0efec; }
+  .sub .k { font-size: 13px; color: #888780; }
+  .sub .v { font-size: 22px; font-weight: 500; font-variant-numeric: tabular-nums; }
+  .meta { font-size: 12px; color: #b4b2a9; text-align: center; line-height: 1.7; }
+  .err { color: #a32d2d; }
+  .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+         background: #1d9e75; margin-right: 6px; vertical-align: middle; }
+  .dot.stale { background: #ba7517; }
+</style>
+</head>
+<body>
+  <h1>中国银行 · 美元牌价</h1>
+
+  <div class="card">
+    <div class="label">现钞买入价</div>
+    <div class="big" id="buy">--<span>元 / 100 美元</span></div>
+    <div class="sub">
+      <span class="k">现钞卖出价</span>
+      <span class="v" id="sell">--</span>
+    </div>
+  </div>
+
+  <div class="meta">
+    <div><span class="dot" id="dot"></span><span id="status">加载中…</span></div>
+    <div id="updated"></div>
+  </div>
+
+<script>
+var JSON_URL = "./rate.json";
+var REFRESH_MS = 60000;
+
+function render(data) {
+  var usd = data.currencies && data.currencies.usd;
+  if (!usd) throw new Error("数据中没有美元");
+  document.getElementById("buy").innerHTML = usd.cash_buy + '<span>元 / 100 美元</span>';
+  document.getElementById("sell").textContent = usd.cash_sell;
+  document.getElementById("status").textContent = "数据正常";
+  document.getElementById("dot").className = "dot";
+  document.getElementById("updated").textContent = "牌价时间 " + data.updated;
+}
+
+function load() {
+  fetch(JSON_URL + "?t=" + Date.now(), { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(render)
+    .catch(function (e) {
+      document.getElementById("status").textContent = "获取失败：" + e.message;
+      document.getElementById("dot").className = "dot stale";
+    });
+}
+
+load();
+setInterval(load, REFRESH_MS);
+document.addEventListener("visibilitychange", function () {
+  if (!document.hidden) load();
+});
+</script>
+</body>
+</html>
