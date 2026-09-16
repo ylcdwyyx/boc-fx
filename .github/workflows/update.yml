@@ -2,8 +2,10 @@ name: Update BOC FX rates
 
 on:
   schedule:
-    # 每 30 分钟抓取一次（GitHub Actions 的 cron 使用 UTC，纯间隔表达式不受时区影响）
-    - cron: "*/30 * * * *"
+    # 每 30 分钟抓取一次。刻意错开整点/半点：GitHub 在 :00 和 :30 前后调度
+    # 延迟最严重（可达 5-30 分钟），选 7 分和 37 分能明显更快被调度。
+    # cron 使用 UTC，纯间隔表达式不受时区影响。
+    - cron: "7,37 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
