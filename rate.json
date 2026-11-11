@@ -1,539 +1,539 @@
 {
   "source": "https://www.boc.cn/sourcedb/whpj/",
-  "updated": "2026/11/11 07:44:36",
-  "fetched_at": "2026-11-11 00:36:12",
+  "updated": "2026/11/11 15:05:03",
+  "fetched_at": "2026-11-11 07:07:04",
   "currencies": {
     "aud": {
       "name": "澳大利亚元",
-      "spot_buy": "457.42",
-      "cash_buy": "457.42",
-      "spot_sell": "461.05",
-      "cash_sell": "461.05",
-      "mid": "462.77"
+      "spot_buy": "457.37",
+      "cash_buy": "457.37",
+      "spot_sell": "461",
+      "cash_sell": "461",
+      "mid": "460.54"
     },
     "cad": {
       "name": "加拿大元",
-      "spot_buy": "469.32",
-      "cash_buy": "469.32",
-      "spot_sell": "473.01",
-      "cash_sell": "473.01",
-      "mid": "473.53"
+      "spot_buy": "468.24",
+      "cash_buy": "468.24",
+      "spot_sell": "471.92",
+      "cash_sell": "471.92",
+      "mid": "472.26"
     },
     "chf": {
       "name": "瑞士法郎",
-      "spot_buy": "806.64",
-      "cash_buy": "806.64",
-      "spot_sell": "812.88",
-      "cash_sell": "812.88",
-      "mid": "816.5"
+      "spot_buy": "804.42",
+      "cash_buy": "804.42",
+      "spot_sell": "810.64",
+      "cash_sell": "810.64",
+      "mid": "812.85"
     },
     "eur": {
       "name": "欧元",
-      "spot_buy": "743.6",
-      "cash_buy": "743.6",
-      "spot_sell": "749.05",
-      "cash_sell": "749.05",
-      "mid": "750.71"
+      "spot_buy": "742.18",
+      "cash_buy": "742.18",
+      "spot_sell": "747.62",
+      "cash_sell": "747.62",
+      "mid": "748.52"
     },
     "gbp": {
       "name": "英镑",
-      "spot_buy": "888.8",
-      "cash_buy": "888.8",
-      "spot_sell": "895.4",
-      "cash_sell": "895.4",
-      "mid": "898.92"
+      "spot_buy": "887.47",
+      "cash_buy": "887.47",
+      "spot_sell": "894.06",
+      "cash_sell": "894.06",
+      "mid": "895"
     },
     "hkd": {
       "name": "港币",
-      "spot_buy": "84.99",
-      "cash_buy": "84.99",
-      "spot_sell": "85.33",
-      "cash_sell": "85.33",
+      "spot_buy": "84.93",
+      "cash_buy": "84.93",
+      "spot_sell": "85.27",
+      "cash_sell": "85.27",
       "mid": "85.64"
     },
     "jpy": {
       "name": "日元",
-      "spot_buy": "4.1927",
-      "cash_buy": "4.1927",
-      "spot_sell": "4.2251",
-      "cash_sell": "4.2251",
-      "mid": "4.2355"
+      "spot_buy": "4.1874",
+      "cash_buy": "4.1874",
+      "spot_sell": "4.2198",
+      "cash_sell": "4.2198",
+      "mid": "4.2279"
     },
     "nzd": {
       "name": "新西兰元",
-      "spot_buy": "373.19",
-      "cash_buy": "373.19",
-      "spot_sell": "376",
-      "cash_sell": "376",
-      "mid": "376.42"
+      "spot_buy": "372.88",
+      "cash_buy": "372.88",
+      "spot_sell": "375.69",
+      "cash_sell": "375.69",
+      "mid": "375.82"
     },
     "sgd": {
       "name": "新加坡元",
-      "spot_buy": "519.37",
-      "cash_buy": "519.37",
-      "spot_sell": "523.27",
-      "cash_sell": "523.27",
-      "mid": "523.42"
+      "spot_buy": "518.86",
+      "cash_buy": "518.86",
+      "spot_sell": "522.76",
+      "cash_sell": "522.76",
+      "mid": "523.15"
     },
     "usd": {
       "name": "美元",
-      "spot_buy": "666.83",
-      "cash_buy": "666.83",
-      "spot_sell": "669.64",
-      "cash_sell": "669.64",
-      "mid": "671.67"
+      "spot_buy": "666.28",
+      "cash_buy": "666.28",
+      "spot_sell": "669.09",
+      "cash_sell": "669.09",
+      "mid": "671.91"
     }
   },
   "rates": [
     {
       "currency": "阿联酋迪拉姆",
-      "spot_buy": "180.62",
-      "cash_buy": "180.62",
-      "spot_sell": "183.16",
-      "cash_sell": "183.16",
-      "mid": "182.01",
+      "spot_buy": "180.46",
+      "cash_buy": "180.46",
+      "spot_sell": "183",
+      "cash_sell": "183",
+      "mid": "182.45",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "澳大利亚元",
-      "spot_buy": "457.42",
-      "cash_buy": "457.42",
-      "spot_sell": "461.05",
-      "cash_sell": "461.05",
-      "mid": "462.77",
+      "spot_buy": "457.37",
+      "cash_buy": "457.37",
+      "spot_sell": "461",
+      "cash_sell": "461",
+      "mid": "460.54",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "文莱元",
       "spot_buy": "",
-      "cash_buy": "479.49",
+      "cash_buy": "479.02",
       "spot_sell": "",
-      "cash_sell": "562.87",
-      "mid": "521.97",
+      "cash_sell": "562.32",
+      "mid": "521.26",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "巴西雷亚尔",
       "spot_buy": "",
-      "cash_buy": "113.71",
+      "cash_buy": "113.62",
       "spot_sell": "",
-      "cash_sell": "126.74",
-      "mid": "120.95",
+      "cash_sell": "126.64",
+      "mid": "119.57",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "加拿大元",
-      "spot_buy": "469.32",
-      "cash_buy": "469.32",
-      "spot_sell": "473.01",
-      "cash_sell": "473.01",
-      "mid": "473.53",
+      "spot_buy": "468.24",
+      "cash_buy": "468.24",
+      "spot_sell": "471.92",
+      "cash_sell": "471.92",
+      "mid": "472.26",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "瑞士法郎",
-      "spot_buy": "806.64",
-      "cash_buy": "806.64",
-      "spot_sell": "812.88",
-      "cash_sell": "812.88",
-      "mid": "816.5",
+      "spot_buy": "804.42",
+      "cash_buy": "804.42",
+      "spot_sell": "810.64",
+      "cash_sell": "810.64",
+      "mid": "812.85",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "捷克克朗",
       "spot_buy": "",
-      "cash_buy": "27.27",
+      "cash_buy": "27.22",
       "spot_sell": "",
-      "cash_sell": "34.01",
-      "mid": "30.78",
+      "cash_sell": "33.94",
+      "mid": "30.61",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "丹麦克朗",
-      "spot_buy": "99.42",
-      "cash_buy": "99.42",
-      "spot_sell": "100.22",
-      "cash_sell": "100.22",
-      "mid": "100.41",
+      "spot_buy": "99.24",
+      "cash_buy": "99.24",
+      "spot_sell": "100.04",
+      "cash_sell": "100.04",
+      "mid": "100.18",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "欧元",
-      "spot_buy": "743.6",
-      "cash_buy": "743.6",
-      "spot_sell": "749.05",
-      "cash_sell": "749.05",
-      "mid": "750.71",
+      "spot_buy": "742.18",
+      "cash_buy": "742.18",
+      "spot_sell": "747.62",
+      "cash_sell": "747.62",
+      "mid": "748.52",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "英镑",
-      "spot_buy": "888.8",
-      "cash_buy": "888.8",
-      "spot_sell": "895.4",
-      "cash_sell": "895.4",
-      "mid": "898.92",
+      "spot_buy": "887.47",
+      "cash_buy": "887.47",
+      "spot_sell": "894.06",
+      "cash_sell": "894.06",
+      "mid": "895",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "港币",
-      "spot_buy": "84.99",
-      "cash_buy": "84.99",
-      "spot_sell": "85.33",
-      "cash_sell": "85.33",
+      "spot_buy": "84.93",
+      "cash_buy": "84.93",
+      "spot_sell": "85.27",
+      "cash_sell": "85.27",
       "mid": "85.64",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "匈牙利福林",
-      "spot_buy": "2.0268",
-      "cash_buy": "2.0268",
-      "spot_sell": "2.0678",
-      "cash_sell": "2.0678",
-      "mid": "2.0743",
+      "spot_buy": "2.0242",
+      "cash_buy": "2.0242",
+      "spot_sell": "2.065",
+      "cash_sell": "2.065",
+      "mid": "2.0571",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "印尼卢比",
-      "spot_buy": "0.0366",
-      "cash_buy": "0.0366",
-      "spot_sell": "0.0374",
-      "cash_sell": "0.0374",
-      "mid": "0.0369",
+      "spot_buy": "0.0363",
+      "cash_buy": "0.0363",
+      "spot_sell": "0.0371",
+      "cash_sell": "0.0371",
+      "mid": "0.037",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "以色列谢克尔",
       "spot_buy": "",
-      "cash_buy": "189.07",
+      "cash_buy": "189.35",
       "spot_sell": "",
-      "cash_sell": "231.09",
-      "mid": "211.33",
+      "cash_sell": "231.43",
+      "mid": "210.27",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "印度卢比",
       "spot_buy": "",
-      "cash_buy": "6.7417",
+      "cash_buy": "6.7459",
       "spot_sell": "",
-      "cash_sell": "7.5169",
-      "mid": "7.1045",
+      "cash_sell": "7.5215",
+      "mid": "7.1115",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "日元",
-      "spot_buy": "4.1927",
-      "cash_buy": "4.1927",
-      "spot_sell": "4.2251",
-      "cash_sell": "4.2251",
-      "mid": "4.2355",
+      "spot_buy": "4.1874",
+      "cash_buy": "4.1874",
+      "spot_sell": "4.2198",
+      "cash_sell": "4.2198",
+      "mid": "4.2279",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "柬埔寨瑞尔",
       "spot_buy": "",
-      "cash_buy": "0.1454",
+      "cash_buy": "0.1453",
       "spot_sell": "",
-      "cash_sell": "0.1817",
-      "mid": "0.1633",
+      "cash_sell": "0.1816",
+      "mid": "0.1637",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "韩国元",
-      "spot_buy": "0.4936",
-      "cash_buy": "0.4936",
-      "spot_sell": "0.5039",
-      "cash_sell": "0.5039",
-      "mid": "0.4973",
+      "spot_buy": "0.4961",
+      "cash_buy": "0.4961",
+      "spot_sell": "0.5065",
+      "cash_sell": "0.5065",
+      "mid": "0.499",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "科威特第纳尔",
       "spot_buy": "",
-      "cash_buy": "1910.66",
+      "cash_buy": "1909.26",
       "spot_sell": "",
-      "cash_sell": "2382.96",
-      "mid": "2146.27",
+      "cash_sell": "2381.22",
+      "mid": "2145.77",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "哈萨克斯坦坚戈",
-      "spot_buy": "1.46",
-      "cash_buy": "1.46",
-      "spot_sell": "1.52",
-      "cash_sell": "1.52",
+      "spot_buy": "1.47",
+      "cash_buy": "1.47",
+      "spot_sell": "1.53",
+      "cash_sell": "1.53",
       "mid": "1.49",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "蒙古图格里克",
-      "spot_buy": "0.1723",
-      "cash_buy": "0.1723",
-      "spot_sell": "0.1983",
-      "cash_sell": "0.1983",
-      "mid": "0.1856",
+      "spot_buy": "0.1721",
+      "cash_buy": "0.1721",
+      "spot_sell": "0.1981",
+      "cash_sell": "0.1981",
+      "mid": "0.1853",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "澳门元",
-      "spot_buy": "82.51",
-      "cash_buy": "82.51",
-      "spot_sell": "82.89",
-      "cash_sell": "82.89",
-      "mid": "83.08",
+      "spot_buy": "82.45",
+      "cash_buy": "82.45",
+      "spot_sell": "82.83",
+      "cash_sell": "82.83",
+      "mid": "83.1",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "毛里求斯卢比",
-      "spot_buy": "11.91",
+      "spot_buy": "11.84",
       "cash_buy": "",
-      "spot_sell": "14.85",
+      "spot_sell": "14.76",
       "cash_sell": "",
-      "mid": "13.34",
+      "mid": "13.38",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "墨西哥比索",
-      "spot_buy": "35.53",
-      "cash_buy": "35.53",
-      "spot_sell": "36.25",
-      "cash_sell": "36.25",
-      "mid": "36.16",
+      "spot_buy": "35.58",
+      "cash_buy": "35.58",
+      "spot_sell": "36.3",
+      "cash_sell": "36.3",
+      "mid": "36.06",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "林吉特",
-      "spot_buy": "164.11",
+      "spot_buy": "163.18",
       "cash_buy": "",
-      "spot_sell": "165.6",
+      "spot_sell": "164.65",
       "cash_sell": "",
-      "mid": "165.09",
+      "mid": "165.24",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "挪威克朗",
-      "spot_buy": "70",
-      "cash_buy": "70",
-      "spot_sell": "70.56",
-      "cash_sell": "70.56",
-      "mid": "71.07",
+      "spot_buy": "69.98",
+      "cash_buy": "69.98",
+      "spot_sell": "70.54",
+      "cash_sell": "70.54",
+      "mid": "70.49",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "尼泊尔卢比",
       "spot_buy": "",
-      "cash_buy": "3.6137",
+      "cash_buy": "3.6283",
       "spot_sell": "",
-      "cash_sell": "5.1371",
-      "mid": "4.4336",
+      "cash_sell": "5.1578",
+      "mid": "4.4285",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "新西兰元",
-      "spot_buy": "373.19",
-      "cash_buy": "373.19",
-      "spot_sell": "376",
-      "cash_sell": "376",
-      "mid": "376.42",
+      "spot_buy": "372.88",
+      "cash_buy": "372.88",
+      "spot_sell": "375.69",
+      "cash_sell": "375.69",
+      "mid": "375.82",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "菲律宾比索",
-      "spot_buy": "10.49",
-      "cash_buy": "10.49",
-      "spot_sell": "10.71",
-      "cash_sell": "10.71",
-      "mid": "10.58",
+      "spot_buy": "10.45",
+      "cash_buy": "10.45",
+      "spot_sell": "10.67",
+      "cash_sell": "10.67",
+      "mid": "10.57",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "巴基斯坦卢比",
       "spot_buy": "",
-      "cash_buy": "1.9803",
+      "cash_buy": "1.9787",
       "spot_sell": "",
-      "cash_sell": "2.8497",
-      "mid": "2.4127",
+      "cash_sell": "2.8475",
+      "mid": "2.415",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "波兰兹罗提",
-      "spot_buy": "168.03",
+      "spot_buy": "167.73",
       "cash_buy": "",
-      "spot_sell": "171.43",
+      "spot_sell": "171.11",
       "cash_sell": "",
-      "mid": "171.38",
+      "mid": "170.51",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "卡塔尔里亚尔",
-      "spot_buy": "163.1",
-      "cash_buy": "163.1",
-      "spot_sell": "203.42",
-      "cash_sell": "203.42",
-      "mid": "183.16",
+      "spot_buy": "162.97",
+      "cash_buy": "162.97",
+      "spot_sell": "203.25",
+      "cash_sell": "203.25",
+      "mid": "183.26",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "罗马尼亚列伊",
-      "spot_buy": "138.2",
+      "spot_buy": "137.95",
       "cash_buy": "",
-      "spot_sell": "141",
+      "spot_sell": "140.73",
       "cash_sell": "",
-      "mid": "140.21",
+      "mid": "139.5",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "塞尔维亚第纳尔",
-      "spot_buy": "6.2792",
+      "spot_buy": "6.271",
       "cash_buy": "",
-      "spot_sell": "6.406",
+      "spot_sell": "6.3976",
       "cash_sell": "",
-      "mid": "6.3684",
+      "mid": "6.3366",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "卢布",
-      "spot_buy": "7.64",
-      "cash_buy": "7.64",
-      "spot_sell": "8.03",
-      "cash_sell": "8.03",
-      "mid": "8.09",
+      "spot_buy": "7.68",
+      "cash_buy": "7.68",
+      "spot_sell": "8.07",
+      "cash_sell": "8.07",
+      "mid": "8.05",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "沙特里亚尔",
-      "spot_buy": "176.72",
-      "cash_buy": "176.72",
-      "spot_sell": "179.22",
-      "cash_sell": "179.22",
-      "mid": "178.1",
+      "spot_buy": "176.59",
+      "cash_buy": "176.59",
+      "spot_sell": "179.07",
+      "cash_sell": "179.07",
+      "mid": "178.55",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "瑞典克朗",
-      "spot_buy": "67.45",
-      "cash_buy": "67.45",
-      "spot_sell": "67.99",
-      "cash_sell": "67.99",
-      "mid": "68.23",
+      "spot_buy": "67.31",
+      "cash_buy": "67.31",
+      "spot_sell": "67.85",
+      "cash_sell": "67.85",
+      "mid": "67.93",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "新加坡元",
-      "spot_buy": "519.37",
-      "cash_buy": "519.37",
-      "spot_sell": "523.27",
-      "cash_sell": "523.27",
-      "mid": "523.42",
+      "spot_buy": "518.86",
+      "cash_buy": "518.86",
+      "spot_sell": "522.76",
+      "cash_sell": "522.76",
+      "mid": "523.15",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "泰国铢",
-      "spot_buy": "19.81",
-      "cash_buy": "19.81",
-      "spot_sell": "19.97",
-      "cash_sell": "19.97",
-      "mid": "19.98",
+      "spot_buy": "19.79",
+      "cash_buy": "19.79",
+      "spot_sell": "19.95",
+      "cash_sell": "19.95",
+      "mid": "19.91",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "土耳其里拉",
-      "spot_buy": "12.37",
-      "cash_buy": "12.37",
-      "spot_sell": "14.23",
-      "cash_sell": "14.23",
-      "mid": "13.32",
+      "spot_buy": "12.36",
+      "cash_buy": "12.36",
+      "spot_sell": "14.22",
+      "cash_sell": "14.22",
+      "mid": "13.35",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "新台币",
       "spot_buy": "",
-      "cash_buy": "19.44",
+      "cash_buy": "19.49",
       "spot_sell": "",
-      "cash_sell": "21.3",
-      "mid": "20.37",
+      "cash_sell": "21.35",
+      "mid": "20.28",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "美元",
-      "spot_buy": "666.83",
-      "cash_buy": "666.83",
-      "spot_sell": "669.64",
-      "cash_sell": "669.64",
-      "mid": "671.67",
+      "spot_buy": "666.28",
+      "cash_buy": "666.28",
+      "spot_sell": "669.09",
+      "cash_sell": "669.09",
+      "mid": "671.91",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "越南盾",
       "spot_buy": "",
-      "cash_buy": "0.0248",
+      "cash_buy": "0.0247",
       "spot_sell": "",
-      "cash_sell": "0.0274",
+      "cash_sell": "0.0273",
       "mid": "0.0261",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "南非兰特",
-      "spot_buy": "40.21",
-      "cash_buy": "40.21",
-      "spot_sell": "40.68",
-      "cash_sell": "40.68",
-      "mid": "40.87",
+      "spot_buy": "40.2",
+      "cash_buy": "40.2",
+      "spot_sell": "40.67",
+      "cash_sell": "40.67",
+      "mid": "40.57",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     },
     {
       "currency": "赞比亚克瓦查",
-      "spot_buy": "29.18",
+      "spot_buy": "29.11",
       "cash_buy": "",
-      "spot_sell": "36.4",
+      "spot_sell": "36.31",
       "cash_sell": "",
-      "mid": "32.41",
+      "mid": "32.79",
       "publish_date": "2026/11/11",
-      "publish_time": "07:44:36"
+      "publish_time": "15:05:03"
     }
   ]
 }
